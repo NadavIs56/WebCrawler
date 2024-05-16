@@ -28,6 +28,7 @@ WebCrawler_Arato.ai/
 - README.md - This file, which provides an overview of the project and instructions on how to use it.
 - requirements.txt - Lists the Python dependencies required to run the project.
 
+<br>
 
 ##     <p align = "left"> 💻 Installation </p>
 To set up and run the web crawler, follow these steps:
