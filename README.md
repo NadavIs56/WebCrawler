@@ -1,4 +1,4 @@
-#  <p align ="center" height="40px" width="40px"> WebCrawler </p>
+#  <p align ="center" height="40px" width="40px"> WebCrawler 🕸️ </p>
 
 ### <p align ="center"> Implemented using: </p>
 <p align ="center">
