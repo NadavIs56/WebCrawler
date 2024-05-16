@@ -2,7 +2,7 @@
 
 ### <p align ="center"> Implemented using: </p>
 <p align ="center">
-<a href="https://beautiful-soup-4.readthedocs.io/en/latest/#" target="_blank" rel="noreferrer">   <img src="https://miro.medium.com/v2/resize:fit:772/0*oN9jA-Ad3mRlPAYy.png" width="32" height="32" /></a>
+<a href="https://beautiful-soup-4.readthedocs.io/en/latest/#" target="_blank" rel="noreferrer">   <img src="https://datascientest.com/en/wp-content/uploads/sites/9/2024/01/beautiful-soup.png" width="32" height="32" /></a>
 
 </p>
 
