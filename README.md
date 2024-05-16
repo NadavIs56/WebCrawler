@@ -61,3 +61,9 @@ You can run the web crawler by executing the main.py script. The script accepts 
 ```bash
 python main.py https://example.com --directory custom_folder
 ```
+
+<br>
+
+##     <p align = "left"> 📝 Conclusion </p>
+This project demonstrates the implementation of a web crawler with robust error handling, efficient data structures, and clear logging. The code is organized, well-documented, and tested, providing a solid foundation for further development and scalability.
+
