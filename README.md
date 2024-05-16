@@ -83,11 +83,21 @@ The web crawler is designed with modularity and efficiency in mind, leveraging a
 <br>
 
 ### System Components and Their Responsibilities
-#### 1. main.py:
+#### **1. main.py:**
 - Entry point for the script.
 - Parses command-line arguments.
 - Validates the provided URL.
 - Initializes and starts the WebCrawler.
+
+#### **crawler.py:**
+- Contains the WebCrawler class.
+- Implements methods for fetching, downloading, parsing, and managing URLs.
+- Ensures that each page is downloaded only once and stored with a unique filename.
+
+#### **test_crawler.py:**
+- Contains tests for verifying the functionality of the web crawler using the pytest framework.
+- Tests include checking for non-HTML content, correct downloading, domain restriction, and content hashing.
+
 
 
 ##     <p align = "left"> 📝 Conclusion </p>
