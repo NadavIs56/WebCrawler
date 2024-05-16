@@ -1,5 +1,12 @@
 #  <p align ="center" height="40px" width="40px"> WebCrawler </p>
 
+### <p align ="center"> Implemented using: </p>
+<p align ="center">
+<a href="https://beautiful-soup-4.readthedocs.io/en/latest/#" target="_blank" rel="noreferrer">   <img src="https://miro.medium.com/v2/resize:fit:772/0*oN9jA-Ad3mRlPAYy.png" width="32" height="32" /></a>
+
+</p>
+
+
 <br>
 
 ##     <p align = "left"> 🌟 Introduction </p>
