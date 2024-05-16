@@ -29,10 +29,11 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
+<br>
 
 ##     <p align = "left"> 📘 Usage </p>
 
-You can run the web crawler by executing the main.py script. The script accepts a URL and an optional directory argument to specify where the pages should be saved (Set to "downloaded_pages" by default).
+You can run the web crawler by executing the main.py script. The script accepts a URL and an optional directory argument to specify where the pages should be saved (Set to "downloaded_pages" by default).<br>If the URL is not provided or is invalid, the script will prompt you to enter a valid URL.<br>
 Example command:
 ```bash
 python main.py https://example.com --directory custom_folder
