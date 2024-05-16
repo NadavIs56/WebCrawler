@@ -9,12 +9,12 @@
 <a href="https://docs.pytest.org/en/8.2.x/" target="_blank" rel="noreferrer">   <img src="https://media.dev.to/cdn-cgi/image/width=1600,height=900,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9yj876ae9ulowwirdpuz.png" width="80" height="48" /></a>
 </p>
 
-
 <br>
 
 ##     <p align = "left"> 🌟 Introduction </p>
 This project is designed to build a web crawler that, given an entry point for a website (e.g., https://example.com), downloads all pages of the website into a designated local folder. The crawler ensures that each page is downloaded only once.
 
+<br>
 
 ##     <p align = "left"> 📂 Repository Structure </p>
 The repository contains the following files and directories:
@@ -42,7 +42,8 @@ WebCrawler_Arato.ai/
 - README.md - This file, which provides an overview of the project and instructions on how to use it.
 - requirements.txt - Lists the Python dependencies required to run the project.
 
-
+<br>
+ 
 ##     <p align = "left"> 💻 Installation </p>
 To set up and run the web crawler, follow these steps:
 1. Clone the repository:
@@ -60,6 +61,7 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
+<br>
 
 ##     <p align = "left"> 📘 Usage </p>
 
@@ -68,6 +70,24 @@ You can run the web crawler by executing the main.py script. The script accepts 
 ```bash
 python main.py https://example.com --directory custom_folder
 ```
+
+<br>
+
+##     <p align = "left"> System Design </p>
+The web crawler is designed with modularity and efficiency in mind, leveraging asynchronous I/O operations for handling multiple network requests concurrently. The core components of the system include:
+1. **URL Fetching:** Asynchronously fetches the HTML content of web pages.
+2. **HTML Parsing:** Uses BeautifulSoup to parse HTML content and extract links.
+3. **URL Management:** Keeps track of visited URLs and those yet to be visited, ensuring each URL is processed only once.
+4. **Content Storage:** Saves the HTML content of each page to a designated local folder, with filenames derived from the sanitized URLs.
+
+<br>
+
+### System Components and Their Responsibilities
+1. main.py:
+- Entry point for the script.
+- Parses command-line arguments.
+- Validates the provided URL.
+- Initializes and starts the WebCrawler.
 
 
 ##     <p align = "left"> 📝 Conclusion </p>
