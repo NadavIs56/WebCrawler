@@ -80,7 +80,6 @@ The web crawler is designed with modularity and efficiency in mind, leveraging a
 3. **URL Management:** Keeps track of visited URLs and those yet to be visited, ensuring each URL is processed only once.
 4. **Content Storage:** Saves the HTML content of each page to a designated local folder, with filenames derived from the sanitized URLs.
 
-<br>
 
 ### System Components and Their Responsibilities
 **1. main.py:**
