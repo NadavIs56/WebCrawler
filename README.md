@@ -73,7 +73,7 @@ python main.py https://example.com --directory custom_folder
 
 <br>
 
-##     <p align = "left"> System Design </p>
+##     <p align = "left"> 🛠️ System Design </p>
 The web crawler is designed with modularity and efficiency in mind, leveraging asynchronous I/O operations for handling multiple network requests concurrently. The core components of the system include:
 1. **URL Fetching:** Asynchronously fetches the HTML content of web pages.
 2. **HTML Parsing:** Uses BeautifulSoup to parse HTML content and extract links.
@@ -83,22 +83,37 @@ The web crawler is designed with modularity and efficiency in mind, leveraging a
 <br>
 
 ### System Components and Their Responsibilities
-#### **1. main.py:**
+**1. main.py:**
 - Entry point for the script.
 - Parses command-line arguments.
 - Validates the provided URL.
 - Initializes and starts the WebCrawler.
 
-#### **2. crawler.py:**
+**2. crawler.py:**
 - Contains the WebCrawler class.
 - Implements methods for fetching, downloading, parsing, and managing URLs.
 - Ensures that each page is downloaded only once and stored with a unique filename.
 
-3. test_crawler.py:
+**3. test_crawler.py:**
 - Contains tests for verifying the functionality of the web crawler using the pytest framework.
 - Tests include checking for non-HTML content, correct downloading, domain restriction, and content hashing.
 
+<br>
 
+##     <p align = "left"> ⚠️ Potential Bottlenecks and Mitigations </p>
+In the context of this web crawler, potential bottlenecks refer to points in the system where performance issues or inefficiencies may occur. Identifying these bottlenecks is crucial for ensuring the crawler runs efficiently and scales well. Mitigations are strategies or solutions to address these bottlenecks and improve the system's overall performance and reliability.
+### 1. Network Latency and I/O Operations:
+**Mitigation:** Use asynchronous I/O to handle multiple requests concurrently, reducing idle wait times.
+### 2. CPU Utilization:
+**Mitigation:** Offload CPU-intensive tasks like hashing to separate workers or use parallel processing.
+### 3. Memory Usage:
+**Mitigation:** Limit the number of URLs (Maximum 10) processed concurrently and use efficient data structures (Sets) to manage URLs.
+
+<br>
+
+##     <p align = "left"> 📊 Efficient Data Structures </p>
+- **Sets:** Used for visited_urls and visited_hashes to ensure O(1) average-time complexity for membership checks.
+- **Queue:** A deque or a priority queue can be used for managing URLs to be visited, ensuring efficient append and pop operations.
 
 ##     <p align = "left"> 📝 Conclusion </p>
 This project demonstrates the implementation of a web crawler with robust error handling, efficient data structures, and clear logging. The code is organized, well-documented, and tested, providing a solid foundation for further development and scalability.
