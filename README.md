@@ -114,6 +114,8 @@ In the context of this web crawler, potential bottlenecks refer to points in the
 - **Sets:** Used for visited_urls and visited_hashes to ensure O(1) average-time complexity for membership checks.
 - **Queue:** A deque or a priority queue can be used for managing URLs to be visited, ensuring efficient append and pop operations.
 
+<br>
+
 ##     <p align = "left"> 📝 Conclusion </p>
 This project demonstrates the implementation of a web crawler with robust error handling, efficient data structures, and clear logging. The code is organized, well-documented, and tested, providing a solid foundation for further development and scalability.
 
