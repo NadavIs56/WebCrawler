@@ -119,3 +119,8 @@ In the context of this web crawler, potential bottlenecks refer to points in the
 ##     <p align = "left"> 📝 Conclusion </p>
 This project demonstrates the implementation of a web crawler with robust error handling, efficient data structures, and clear logging. The code is organized, well-documented, and tested, providing a solid foundation for further development and scalability.
 
+<br>
+
+<div align="center">
+  Made with ❤️ by <a href="https://github.com/NadavIs56">Nadav Ishai</a>
+</div>
