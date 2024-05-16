@@ -4,6 +4,7 @@
 <p align ="center">
 <a href="https://beautiful-soup-4.readthedocs.io/en/latest/#" target="_blank" rel="noreferrer">   <img src="https://datascientest.com/en/wp-content/uploads/sites/9/2024/01/beautiful-soup.png" width="64" height="32" /></a>
 <a href="https://www.python.org/" target="_blank" rel="noreferrer">   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" width="32" height="32" /></a>
+<a href="https://docs.aiohttp.org/en/stable/" target="_blank" rel="noreferrer">   <img src="https://kinsta.com/wp-content/uploads/2023/04/aiohttp.png" width="64" height="32" /></a>
 </p>
 
 
