@@ -26,7 +26,7 @@ WebCrawler_Arato.ai/
 - crawler.py - Contains the WebCrawler class, which implements the core functionality of the web crawler.
 - test_crawler.py - Contains tests to verify the functionality of the web crawler.
 - README.md - This file, which provides an overview of the project and instructions on how to use it.
-requirements.txt - Lists the Python dependencies required to run the project.
+- requirements.txt - Lists the Python dependencies required to run the project.
 
 
 ##     <p align = "left"> 💻 Installation </p>
