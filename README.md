@@ -3,8 +3,25 @@
 
 
 ##     <p align = "left"> 📂 Repository Structure </p>
-
-The repository contains the following files:
+The repository contains the following files and directories:
+```bash
+WebCrawler_Arato.ai/
+│
+├── crawler/
+│ ├── init.py
+│ └── crawler.py
+│
+├── downloaded_pages/ # This directory will be created when running the script, not included initially
+│
+├── tests/
+│ ├── init.py
+│ ├── test_crawler.py
+│ └── test_downloaded_pages/ # This is the directory created during tests, not included initially
+│
+├── main.py
+├── README.md
+└── requirements.txt
+```
 - main.py - The entry point of the script, which handles command-line arguments and starts the web crawler.
 - crawler.py - Contains the WebCrawler class, which implements the core functionality of the web crawler.
 - test_crawler.py - Contains tests to verify the functionality of the web crawler.
