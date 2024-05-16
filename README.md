@@ -83,7 +83,7 @@ The web crawler is designed with modularity and efficiency in mind, leveraging a
 <br>
 
 ### System Components and Their Responsibilities
-1. main.py:
+#### 1. main.py:
 - Entry point for the script.
 - Parses command-line arguments.
 - Validates the provided URL.
