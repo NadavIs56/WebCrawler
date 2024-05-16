@@ -15,7 +15,6 @@
 ##     <p align = "left"> 🌟 Introduction </p>
 This project is designed to build a web crawler that, given an entry point for a website (e.g., https://example.com), downloads all pages of the website into a designated local folder. The crawler ensures that each page is downloaded only once.
 
-<br>
 
 ##     <p align = "left"> 📂 Repository Structure </p>
 The repository contains the following files and directories:
@@ -43,7 +42,6 @@ WebCrawler_Arato.ai/
 - README.md - This file, which provides an overview of the project and instructions on how to use it.
 - requirements.txt - Lists the Python dependencies required to run the project.
 
-<br>
 
 ##     <p align = "left"> 💻 Installation </p>
 To set up and run the web crawler, follow these steps:
@@ -62,7 +60,6 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-<br>
 
 ##     <p align = "left"> 📘 Usage </p>
 
@@ -72,7 +69,6 @@ You can run the web crawler by executing the main.py script. The script accepts 
 python main.py https://example.com --directory custom_folder
 ```
 
-<br>
 
 ##     <p align = "left"> 📝 Conclusion </p>
 This project demonstrates the implementation of a web crawler with robust error handling, efficient data structures, and clear logging. The code is organized, well-documented, and tested, providing a solid foundation for further development and scalability.
