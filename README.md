@@ -2,7 +2,7 @@
 
 ### <p align ="center"> Implemented using: </p>
 <p align ="center">
-<a href="https://beautiful-soup-4.readthedocs.io/en/latest/#" target="_blank" rel="noreferrer">   <img src="https://datascientest.com/en/wp-content/uploads/sites/9/2024/01/beautiful-soup.png" width="80" height="48" /></a>
+<a href="https://beautiful-soup-4.readthedocs.io/en/latest/#" target="_blank" rel="noreferrer">   <img src="https://db0dce98.rocketcdn.me/en/files/2024/01/beautiful-soup.png" width="80" height="48" /></a>
 <a href="https://docs.aiohttp.org/en/stable/" target="_blank" rel="noreferrer">   <img src="https://kinsta.com/wp-content/uploads/2023/04/aiohttp.png" width="80" height="48" /></a>
 <a href="https://www.python.org/" target="_blank" rel="noreferrer">   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" width="48" height="48" /></a>
 <a href="https://docs.python.org/3/library/asyncio.html" target="_blank" rel="noreferrer">   <img src="https://miro.medium.com/v2/resize:fit:750/1*6R6elwexUmNnLc1EJJ-t9g.jpeg" width="80" height="48" /></a>
